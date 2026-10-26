@@ -30,17 +30,8 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #0d1224 0%, #111827 100%) !important;
     border-right: 1px solid rgba(99,102,241,0.2);
-    min-width: 280px !important;
-    width: 280px !important;
 }
 [data-testid="stSidebar"] * { color: #cbd5e1 !important; }
-/* Hide sidebar toggle buttons - keep sidebar permanently expanded */
-[data-testid="stSidebarCollapseButton"],
-[data-testid="collapsedControl"],
-[data-testid="stSidebarUserContent"] ~ div button,
-button[data-testid="baseButton-headerNoPadding"],
-section[data-testid="stSidebar"] > div > div > button,
-.st-emotion-cache-7ym5gk { display: none !important; }
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding: 1.5rem 2.5rem !important; max-width: 1200px !important; }
 
