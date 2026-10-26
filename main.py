@@ -712,7 +712,7 @@ elif page == "🧠 Alzheimer's Detection":
             with col_img:
                 image_pil = Image.open(uploaded_file)
                 st.markdown("<div style='font-size:0.84rem;color:#64748b;margin-bottom:0.4rem;'>Uploaded MRI Scan</div>", unsafe_allow_html=True)
-                st.image(image_pil, use_column_width=True)
+                st.image(image_pil, width='stretch')
                 st.markdown(f"""
                 <div style="font-size:0.76rem;color:#475569;margin-top:0.3rem;text-align:center;">
                     {uploaded_file.name} · {image_pil.size[0]}×{image_pil.size[1]}px
