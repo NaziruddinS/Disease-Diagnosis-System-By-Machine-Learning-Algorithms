@@ -481,10 +481,8 @@ if page == "🏠 Home":
     <div class="hero-section animate-fade">
         <div class="hero-badge">🔬 AI-Powered Medical Diagnostics</div>
         <h1 class="hero-title">Diagnose Smarter.<br>Live Healthier.</h1>
-        <p class="hero-subtitle">
-            Diagnosify uses state-of-the-art machine learning to screen for
-            Diabetes and Alzheimer's Disease — fast, accurate, and accessible
-            right in your browser.
+        <p class="hero-subtitle" style="text-align: center; max-width: 650px; margin: 0 auto; line-height: 1.8;">
+            Leveraging advanced machine learning algorithms to provide rapid, accurate screening for Diabetes and Alzheimer's Disease — delivering professional-grade diagnostics accessible directly in your browser.
         </p>
     </div>
     """, unsafe_allow_html=True)
