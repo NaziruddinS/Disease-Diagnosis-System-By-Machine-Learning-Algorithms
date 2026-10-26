@@ -32,8 +32,10 @@ html, body, [data-testid="stAppViewContainer"] {
     border-right: 1px solid rgba(99,102,241,0.2);
 }
 [data-testid="stSidebar"] * { color: #cbd5e1 !important; }
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 .block-container { padding: 1.5rem 2.5rem !important; max-width: 1200px !important; }
+/* Ensure sidebar toggle button is visible */
+[data-testid="stSidebarNav"] { display: block !important; }
 
 /* ── Hero ──────────────────────────────────────────────────────────────── */
 .hero-section {
