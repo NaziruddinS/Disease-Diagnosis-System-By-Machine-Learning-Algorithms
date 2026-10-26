@@ -442,7 +442,7 @@ with st.sidebar:
         full_label = f"{icon} {label}"
         if st.button(f"{icon}  {label}", key=f"nav_{label}"):
             st.session_state.page = full_label
-            st.experimental_rerun()
+            st.rerun()
 
     st.markdown("<div style='height:1.2rem'></div>", unsafe_allow_html=True)
     st.markdown("""
